@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compania de desarrollo de SW</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <!-- Link to your CSS file for styling -->
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <img class="logo-empresa" href="" alt="logo" />
+        <nav class="main-nav">
+          <ul>
+            <li class="nav-item"><a href="#about">Nosotros</a></li>
+            <li class="nav-item"><a href="#services">Servicios</a></li>
+            <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a href="#contact">Contactanos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <div class="section-presentacion">
+        <h1>Bienvenido a SWForEveryOne</h1>
+        <p>
+          Construimos y desarrollamos soluciones innovadoras especificas para
+          los problemas de cada negocio
+        </p>
+        <a href="#contact" class="cta-button">Get Started</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-content nosotros">
+        <h2>Nosotros</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non
+          libero vitae libero dignissim facilisis a ut odio.
+        </p>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="section-content servicios">
+        <h2>Servicios ofrecidos</h2>
+        <ul>
+          <li>Desarrollo de Software a medida</li>
+          <li>Desarrollo de aplicaciones WEB</li>
+          <li>Soluciones Cloud</li>
+          <li>Diseño UI/UX</li>
+          <li>Quality Assurance</li>
+          <li>DevOps</li>
+          <li>Transformacion Digital</li>
+          <li>Soporte como servicio</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="section-portfolio">
+        <h2>Portfolio</h2>
+
+        <div class="portfolio-list"></div>
+
+        <div class="portfolio-list-item">
+          <div class="portfolio-list-item-img"></div>
+          <div class="portfolio-list-item-conten">
+            <h3 class="portfolio-list-item-name">Nombre de proyecto ejemplo</h3>
+            <p class="portfolio-list-item-desc">Una pequeña descripcion</p>
+            <a class="btn-link" href=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="section-content">
+        <h2>Contactanos!</h2>
+        <p>
+          Cualquier pregunta que desees hacernos, porfavor comunicate con nosotros.
+        </p>
+         <div class="div-contacto-item"> 
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="nombre" required />
+        </div>
+        <div class="div-contacto-item"></div>  
+        <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="div-contacto-item">  
+        <label for="message">Mensaje:</label>
+          <textarea id="message" name="mensaje" rows="4" required></textarea>
+        </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 SWForEveryOne</p>
+    </footer>
+  </body>
+</html>

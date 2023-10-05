@@ -1,0 +1,82 @@
+
+/*
+color principal: #3498db
+color secundario: #85c1e9
+Color terciario: #2980b9
+Color de acneto (e.g., Green): #27ae60
+colot de texto (Black): #000000
+color del background (Light Gray): #f5f5f5
+*/
+header {
+    background-color: #3498db;
+    height: 125px;
+    width: 100vw;
+}
+
+header div{
+    height: 100%;
+    width: 90%;
+}
+
+body {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: inline-block;
+    float: right;
+    font-size: 24px;
+}
+
+.main-nav{
+    display: inline;
+}
+
+nav ul{
+    display: inline-block;
+}
+
+nav ul li{
+    display: inline-block;
+    color: black;
+    margin-top: 20px;
+    padding-right: 19px;
+   /* padding: 10% 10% 10% 10%;*/
+}
+
+header a {
+    color: #fff;
+}
+
+section {
+    background-color: #f5f5f5;
+}
+
+.section-presentacion{
+    width: 80%;
+    margin-top: 15px;
+    height: 175px;
+}
+
+.section-presentacion h1{
+    margin-left: 30%;
+}
+
+.section-presentacion p{
+    margin-left: 30%;
+}
+
+.cta-button {
+    background-color: #27ae60;
+    color: #fff;
+    margin-left: 45%;
+}
+
+.form-contacto{
+    display: inline-block;
+}
+
+.div-contacto-item{
+    padding-top: 2%;
+}
